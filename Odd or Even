@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+main ()
+{
+      int x;
+      
+      cout<<"Please enter a positive number: ";
+      cin>>x;
+      
+      if (x>=0)
+      {
+      if (x%2==0) // if the integer when divided by 2 has no remainder then it's even
+      cout<<"Even\n\n";
+      else
+      cout<<"Odd\n\n";
+      }
+      else
+      cout<<"Invalid Input\n\n";
+
+      
+      system ("pause");
+       return 0;  
+      
+     }
